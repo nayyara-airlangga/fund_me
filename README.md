@@ -1,15 +1,17 @@
-# Basic Sample Hardhat Project
+# FundMe
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+_Notes:_
 
-Try running some of the following tasks:
+As of right now, this smart contract is only deployed on the Kovan test network. Deployment on the Ethereum mainnet is postponed until further notice.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## Overview
+
+An ethereum smart contract that provides a solution for decentralized crowdfunding.
+
+## Development
+
+This smart contract is written in Solidity and developed inside a Hardhat environment.
+
+## Testing
+
+The testing mechanism is done using Chai and the scripts for said tests are in the `test` directory.
